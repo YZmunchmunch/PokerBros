@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'PokerBros' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for PokerBros
+  pod 'FirebaseFirestore'
+
+  target 'PokerBrosTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'PokerBrosUITests' do
+    # Pods for testing
+  end
+
+end

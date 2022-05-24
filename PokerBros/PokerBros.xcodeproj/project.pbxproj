@@ -1,0 +1,717 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C78553C22837CCB10074E862 /* PokerBrosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78553C12837CCB10074E862 /* PokerBrosApp.swift */; };
+		C78553C42837CCB10074E862 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78553C32837CCB10074E862 /* ContentView.swift */; };
+		C78553C62837CCB70074E862 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C78553C52837CCB70074E862 /* Assets.xcassets */; };
+		C78553C92837CCB70074E862 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C78553C82837CCB70074E862 /* Preview Assets.xcassets */; };
+		C78553D32837CCB70074E862 /* PokerBrosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78553D22837CCB70074E862 /* PokerBrosTests.swift */; };
+		C78553DD2837CCB70074E862 /* PokerBrosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78553DC2837CCB70074E862 /* PokerBrosUITests.swift */; };
+		C78553DF2837CCB70074E862 /* PokerBrosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78553DE2837CCB70074E862 /* PokerBrosUITestsLaunchTests.swift */; };
+		C78553EC2837CD510074E862 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78553EB2837CD510074E862 /* SignUpViewController.swift */; };
+		C78553EE2837CD700074E862 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78553ED2837CD700074E862 /* LoginViewController.swift */; };
+		C78553F02837CD7E0074E862 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78553EF2837CD7E0074E862 /* HomeViewController.swift */; };
+		C78553F52837DD720074E862 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78553F42837DD720074E862 /* ViewController.swift */; };
+		C7F39ED5283AA83300C0805F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7F39ED4283AA83300C0805F /* Launch Screen.storyboard */; };
+		C7F39EDA283CB45500C0805F /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F39ED9283CB45500C0805F /* Home.swift */; };
+		C7F39EDC283CE6CA00C0805F /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F39EDB283CE6CA00C0805F /* Login.swift */; };
+		C7F39EDE283CE6DD00C0805F /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F39EDD283CE6DD00C0805F /* SignUp.swift */; };
+		C7F39EE0283CF44500C0805F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C7F39EDF283CF44400C0805F /* GoogleService-Info.plist */; };
+		C7F39EE3283CFDDB00C0805F /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = C7F39EE2283CFDDB00C0805F /* FirebaseAnalytics */; };
+		C7F39EE5283CFDDB00C0805F /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = C7F39EE4283CFDDB00C0805F /* FirebaseAuth */; };
+		C7F39EE7283CFDDB00C0805F /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = C7F39EE6283CFDDB00C0805F /* FirebaseDatabase */; };
+		C7F39EE9283CFDDB00C0805F /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = C7F39EE8283CFDDB00C0805F /* FirebaseFirestore */; };
+		C7F39EEB283CFDDB00C0805F /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = C7F39EEA283CFDDB00C0805F /* FirebaseFunctions */; };
+		C7F39EED283CFDDB00C0805F /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = C7F39EEC283CFDDB00C0805F /* FirebaseStorage */; };
+		C7FBF2A7283A5F830038C505 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7FBF2A6283A5F830038C505 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C78553CF2837CCB70074E862 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C78553B62837CCB10074E862 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C78553BD2837CCB10074E862;
+			remoteInfo = PokerBros;
+		};
+		C78553D92837CCB70074E862 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C78553B62837CCB10074E862 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C78553BD2837CCB10074E862;
+			remoteInfo = PokerBros;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C78553BE2837CCB10074E862 /* PokerBros.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokerBros.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C78553C12837CCB10074E862 /* PokerBrosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokerBrosApp.swift; sourceTree = "<group>"; };
+		C78553C32837CCB10074E862 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C78553C52837CCB70074E862 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C78553C82837CCB70074E862 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C78553CE2837CCB70074E862 /* PokerBrosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokerBrosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C78553D22837CCB70074E862 /* PokerBrosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokerBrosTests.swift; sourceTree = "<group>"; };
+		C78553D82837CCB70074E862 /* PokerBrosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokerBrosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C78553DC2837CCB70074E862 /* PokerBrosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokerBrosUITests.swift; sourceTree = "<group>"; };
+		C78553DE2837CCB70074E862 /* PokerBrosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokerBrosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C78553EB2837CD510074E862 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		C78553ED2837CD700074E862 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C78553EF2837CD7E0074E862 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C78553F42837DD720074E862 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C7F39ED4283AA83300C0805F /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		C7F39ED9283CB45500C0805F /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		C7F39EDB283CE6CA00C0805F /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		C7F39EDD283CE6DD00C0805F /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		C7F39EDF283CF44400C0805F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C7FBF2A6283A5F830038C505 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C78553BB2837CCB10074E862 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7F39EE7283CFDDB00C0805F /* FirebaseDatabase in Frameworks */,
+				C7F39EE9283CFDDB00C0805F /* FirebaseFirestore in Frameworks */,
+				C7F39EEB283CFDDB00C0805F /* FirebaseFunctions in Frameworks */,
+				C7F39EE3283CFDDB00C0805F /* FirebaseAnalytics in Frameworks */,
+				C7F39EE5283CFDDB00C0805F /* FirebaseAuth in Frameworks */,
+				C7F39EED283CFDDB00C0805F /* FirebaseStorage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C78553CB2837CCB70074E862 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C78553D52837CCB70074E862 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C78553B52837CCB10074E862 = {
+			isa = PBXGroup;
+			children = (
+				C78553C02837CCB10074E862 /* PokerBros */,
+				C78553D12837CCB70074E862 /* PokerBrosTests */,
+				C78553DB2837CCB70074E862 /* PokerBrosUITests */,
+				C78553BF2837CCB10074E862 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C78553BF2837CCB10074E862 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C78553BE2837CCB10074E862 /* PokerBros.app */,
+				C78553CE2837CCB70074E862 /* PokerBrosTests.xctest */,
+				C78553D82837CCB70074E862 /* PokerBrosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C78553C02837CCB10074E862 /* PokerBros */ = {
+			isa = PBXGroup;
+			children = (
+				C7F39EDF283CF44400C0805F /* GoogleService-Info.plist */,
+				C7F39ED8283CB43500C0805F /* Main */,
+				C78553F12837CD9B0074E862 /* View Controllers */,
+				C7F39ED4283AA83300C0805F /* Launch Screen.storyboard */,
+				C78553C32837CCB10074E862 /* ContentView.swift */,
+				C78553C12837CCB10074E862 /* PokerBrosApp.swift */,
+				C78553C52837CCB70074E862 /* Assets.xcassets */,
+				C78553C72837CCB70074E862 /* Preview Content */,
+			);
+			path = PokerBros;
+			sourceTree = "<group>";
+		};
+		C78553C72837CCB70074E862 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C78553C82837CCB70074E862 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C78553D12837CCB70074E862 /* PokerBrosTests */ = {
+			isa = PBXGroup;
+			children = (
+				C78553D22837CCB70074E862 /* PokerBrosTests.swift */,
+			);
+			path = PokerBrosTests;
+			sourceTree = "<group>";
+		};
+		C78553DB2837CCB70074E862 /* PokerBrosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C78553DC2837CCB70074E862 /* PokerBrosUITests.swift */,
+				C78553DE2837CCB70074E862 /* PokerBrosUITestsLaunchTests.swift */,
+			);
+			path = PokerBrosUITests;
+			sourceTree = "<group>";
+		};
+		C78553F12837CD9B0074E862 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C7FBF2A6283A5F830038C505 /* Main.storyboard */,
+				C78553F42837DD720074E862 /* ViewController.swift */,
+				C78553EB2837CD510074E862 /* SignUpViewController.swift */,
+				C78553ED2837CD700074E862 /* LoginViewController.swift */,
+				C78553EF2837CD7E0074E862 /* HomeViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		C7F39ED8283CB43500C0805F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C7F39ED9283CB45500C0805F /* Home.swift */,
+				C7F39EDB283CE6CA00C0805F /* Login.swift */,
+				C7F39EDD283CE6DD00C0805F /* SignUp.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C78553BD2837CCB10074E862 /* PokerBros */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C78553E22837CCB70074E862 /* Build configuration list for PBXNativeTarget "PokerBros" */;
+			buildPhases = (
+				C78553BA2837CCB10074E862 /* Sources */,
+				C78553BB2837CCB10074E862 /* Frameworks */,
+				C78553BC2837CCB10074E862 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PokerBros;
+			packageProductDependencies = (
+				C7F39EE2283CFDDB00C0805F /* FirebaseAnalytics */,
+				C7F39EE4283CFDDB00C0805F /* FirebaseAuth */,
+				C7F39EE6283CFDDB00C0805F /* FirebaseDatabase */,
+				C7F39EE8283CFDDB00C0805F /* FirebaseFirestore */,
+				C7F39EEA283CFDDB00C0805F /* FirebaseFunctions */,
+				C7F39EEC283CFDDB00C0805F /* FirebaseStorage */,
+			);
+			productName = PokerBros;
+			productReference = C78553BE2837CCB10074E862 /* PokerBros.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C78553CD2837CCB70074E862 /* PokerBrosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C78553E52837CCB70074E862 /* Build configuration list for PBXNativeTarget "PokerBrosTests" */;
+			buildPhases = (
+				C78553CA2837CCB70074E862 /* Sources */,
+				C78553CB2837CCB70074E862 /* Frameworks */,
+				C78553CC2837CCB70074E862 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C78553D02837CCB70074E862 /* PBXTargetDependency */,
+			);
+			name = PokerBrosTests;
+			productName = PokerBrosTests;
+			productReference = C78553CE2837CCB70074E862 /* PokerBrosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C78553D72837CCB70074E862 /* PokerBrosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C78553E82837CCB70074E862 /* Build configuration list for PBXNativeTarget "PokerBrosUITests" */;
+			buildPhases = (
+				C78553D42837CCB70074E862 /* Sources */,
+				C78553D52837CCB70074E862 /* Frameworks */,
+				C78553D62837CCB70074E862 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C78553DA2837CCB70074E862 /* PBXTargetDependency */,
+			);
+			name = PokerBrosUITests;
+			productName = PokerBrosUITests;
+			productReference = C78553D82837CCB70074E862 /* PokerBrosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C78553B62837CCB10074E862 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					C78553BD2837CCB10074E862 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					C78553CD2837CCB70074E862 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = C78553BD2837CCB10074E862;
+					};
+					C78553D72837CCB70074E862 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = C78553BD2837CCB10074E862;
+					};
+				};
+			};
+			buildConfigurationList = C78553B92837CCB10074E862 /* Build configuration list for PBXProject "PokerBros" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C78553B52837CCB10074E862;
+			packageReferences = (
+				C7F39EE1283CFDDB00C0805F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = C78553BF2837CCB10074E862 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C78553BD2837CCB10074E862 /* PokerBros */,
+				C78553CD2837CCB70074E862 /* PokerBrosTests */,
+				C78553D72837CCB70074E862 /* PokerBrosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C78553BC2837CCB10074E862 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7FBF2A7283A5F830038C505 /* Main.storyboard in Resources */,
+				C78553C92837CCB70074E862 /* Preview Assets.xcassets in Resources */,
+				C7F39EE0283CF44500C0805F /* GoogleService-Info.plist in Resources */,
+				C7F39ED5283AA83300C0805F /* Launch Screen.storyboard in Resources */,
+				C78553C62837CCB70074E862 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C78553CC2837CCB70074E862 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C78553D62837CCB70074E862 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C78553BA2837CCB10074E862 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C78553F52837DD720074E862 /* ViewController.swift in Sources */,
+				C78553F02837CD7E0074E862 /* HomeViewController.swift in Sources */,
+				C78553EE2837CD700074E862 /* LoginViewController.swift in Sources */,
+				C78553EC2837CD510074E862 /* SignUpViewController.swift in Sources */,
+				C78553C42837CCB10074E862 /* ContentView.swift in Sources */,
+				C78553C22837CCB10074E862 /* PokerBrosApp.swift in Sources */,
+				C7F39EDA283CB45500C0805F /* Home.swift in Sources */,
+				C7F39EDE283CE6DD00C0805F /* SignUp.swift in Sources */,
+				C7F39EDC283CE6CA00C0805F /* Login.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C78553CA2837CCB70074E862 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C78553D32837CCB70074E862 /* PokerBrosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C78553D42837CCB70074E862 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C78553DF2837CCB70074E862 /* PokerBrosUITestsLaunchTests.swift in Sources */,
+				C78553DD2837CCB70074E862 /* PokerBrosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C78553D02837CCB70074E862 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C78553BD2837CCB10074E862 /* PokerBros */;
+			targetProxy = C78553CF2837CCB70074E862 /* PBXContainerItemProxy */;
+		};
+		C78553DA2837CCB70074E862 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C78553BD2837CCB10074E862 /* PokerBros */;
+			targetProxy = C78553D92837CCB70074E862 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C78553E02837CCB70074E862 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C78553E12837CCB70074E862 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C78553E32837CCB70074E862 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PokerBros/Preview Content\"";
+				DEVELOPMENT_TEAM = 5GW4SQPFNM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UIMainStoryboardFile = "Launch Screen";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ang-Yuze.PokerBros";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C78553E42837CCB70074E862 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PokerBros/Preview Content\"";
+				DEVELOPMENT_TEAM = 5GW4SQPFNM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UIMainStoryboardFile = "Launch Screen";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ang-Yuze.PokerBros";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C78553E62837CCB70074E862 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5GW4SQPFNM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ang-Yuze.PokerBrosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PokerBros.app/PokerBros";
+			};
+			name = Debug;
+		};
+		C78553E72837CCB70074E862 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5GW4SQPFNM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ang-Yuze.PokerBrosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PokerBros.app/PokerBros";
+			};
+			name = Release;
+		};
+		C78553E92837CCB70074E862 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5GW4SQPFNM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ang-Yuze.PokerBrosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PokerBros;
+			};
+			name = Debug;
+		};
+		C78553EA2837CCB70074E862 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5GW4SQPFNM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ang-Yuze.PokerBrosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PokerBros;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C78553B92837CCB10074E862 /* Build configuration list for PBXProject "PokerBros" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C78553E02837CCB70074E862 /* Debug */,
+				C78553E12837CCB70074E862 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C78553E22837CCB70074E862 /* Build configuration list for PBXNativeTarget "PokerBros" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C78553E32837CCB70074E862 /* Debug */,
+				C78553E42837CCB70074E862 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C78553E52837CCB70074E862 /* Build configuration list for PBXNativeTarget "PokerBrosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C78553E62837CCB70074E862 /* Debug */,
+				C78553E72837CCB70074E862 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C78553E82837CCB70074E862 /* Build configuration list for PBXNativeTarget "PokerBrosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C78553E92837CCB70074E862 /* Debug */,
+				C78553EA2837CCB70074E862 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C7F39EE1283CFDDB00C0805F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C7F39EE2283CFDDB00C0805F /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C7F39EE1283CFDDB00C0805F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		C7F39EE4283CFDDB00C0805F /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C7F39EE1283CFDDB00C0805F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		C7F39EE6283CFDDB00C0805F /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C7F39EE1283CFDDB00C0805F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		C7F39EE8283CFDDB00C0805F /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C7F39EE1283CFDDB00C0805F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		C7F39EEA283CFDDB00C0805F /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C7F39EE1283CFDDB00C0805F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFunctions;
+		};
+		C7F39EEC283CFDDB00C0805F /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C7F39EE1283CFDDB00C0805F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C78553B62837CCB10074E862 /* Project object */;
+}

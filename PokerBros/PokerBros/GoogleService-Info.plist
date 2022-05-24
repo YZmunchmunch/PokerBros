@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>220066329652-ppt4nm7mk95sijuvvs4fq0lhgu890ft4.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.220066329652-ppt4nm7mk95sijuvvs4fq0lhgu890ft4</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAqhrli7qfvzRNJzNN1vH96VcU-rFSXmiA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>220066329652</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Ang-Yuze.PokerBros</string>
+	<key>PROJECT_ID</key>
+	<string>pokerbrosauth</string>
+	<key>STORAGE_BUCKET</key>
+	<string>pokerbrosauth.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:220066329652:ios:1abefcf39a31af38b74661</string>
+</dict>
+</plist>
